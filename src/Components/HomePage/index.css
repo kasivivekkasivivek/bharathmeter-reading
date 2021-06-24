@@ -1,0 +1,26 @@
+.app-homePage-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search-bar {
+  padding: 6px;
+  border-radius: 15px;
+  outline: none;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .search-bar {
+    width: 40%;
+  }
+}
